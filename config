@@ -4,6 +4,9 @@
 	bare = true
 	symlinks = false
 	ignorecase = true
+<<<<<<< HEAD
 [remote "origin"]
 	url = https://github.com/cacianogenz/curso_pontointeligente.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
+=======
+>>>>>>> 20b579bc1ac3230d77826ca788b81d7431c124f8

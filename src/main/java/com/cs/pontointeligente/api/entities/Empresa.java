@@ -6,7 +6,10 @@ import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
+<<<<<<< HEAD
 import javax.persistence.Entity;
+=======
+>>>>>>> 20b579bc1ac3230d77826ca788b81d7431c124f8
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -14,9 +17,13 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
+<<<<<<< HEAD
 import javax.persistence.Table;
 @Entity
 @Table(name = "empresa")
+=======
+
+>>>>>>> 20b579bc1ac3230d77826ca788b81d7431c124f8
 public class Empresa implements Serializable  {
 	/**
 	 * 

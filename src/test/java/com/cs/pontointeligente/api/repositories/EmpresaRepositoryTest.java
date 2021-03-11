@@ -43,12 +43,21 @@ public class EmpresaRepositoryTest {
 		assertEquals(CNPJ, empresa.getCnpj());
 	}
 	
+<<<<<<< HEAD
 //	@Test
 //	public void testListAll() {
 //		List<Empresa> emps = this.empresaRepository.listAll();
 //		
 //		assertEquals(1, emps);
 //	}
+=======
+	@Test
+	public void testListAll() {
+		List<Empresa> emps = this.empresaRepository.listAll();
+		
+		assertEquals(1, emps);
+	}
+>>>>>>> 20b579bc1ac3230d77826ca788b81d7431c124f8
 	
 
 }
